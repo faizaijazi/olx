@@ -1,0 +1,378 @@
+@font-face {
+    font-family: bold;
+    src: url(./fonts/Roboto-Bold.ttf );
+}
+@font-face {
+    font-family: light;
+    src: url(./fonts/Roboto-Light.ttf);
+}
+@font-face {
+    font-family: medium;
+    src: url(./fonts/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: regular;
+    src: url(./fonts/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: thin;
+    src: url(./fonts/Roboto-Thin.ttf);
+}
+
+.nav{
+    background-color: rgb(243, 243, 243);
+}
+
+.logo{
+    width: 34px;
+    height: 18px;
+    margin: 20px;
+}
+
+.head1{
+    display: flex;
+    margin-left: 15.5%;
+    font-family: medium;
+}
+
+.motros{
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.motros h5{
+    font-size: 15px;
+}
+
+.property{
+    margin-left: 35px;
+    margin-top: 20px;
+}
+
+.property h5{
+    font-size: 15px;
+}
+
+.logo_black{
+    width: 60px;
+    margin-left: 16px;
+}
+
+::placeholder{
+    font-size: 15px;
+}
+
+.head2{
+    display: flex;
+    margin-top: 5px;
+    margin-left: 15.5%;
+    font-family: regular;
+}
+
+.searchBar1 input{
+    height: 40px;
+    width: 200px;
+    padding-left: 40px;
+}
+
+.searchBar1{
+    position: relative;
+    margin-left: 25px;
+}
+
+.search1{
+    position: absolute;
+    margin: 12px;
+}
+
+.errow{
+    position: absolute;
+    margin-left: -25px;
+    width: 15px;
+    margin-top: 12px;
+}
+
+.search2{
+    margin-left: 15px;
+    height: 40px;
+    width: 650px;
+    padding-left: 10px;
+}
+
+.searchtwo{
+    color: #fff;
+}
+
+.searchBar2{
+    display: flex;
+}
+
+.searchBar2 button{
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border: none;
+}
+
+.login{
+    text-decoration: underline;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.login h3{
+    font-size: 20px;
+}
+
+.sell{
+    position: relative;
+    margin-left: 30px;
+}
+
+.sellbuton{
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.plus{
+    position: absolute;
+    margin-top: 6px;
+    margin-left: 18px;
+}
+
+.sellinner{
+    position: absolute;
+    margin-top: 2px;
+    margin-left: 38px;
+    font-size: 20px;
+}
+
+.category ul{
+    display: flex;
+    margin-left: 260px;
+    margin-top: 10px;
+}
+
+.category ul li{
+    list-style-type: none;
+    margin-left: 20px;
+    font-family: regular;
+    font-size: 15px;
+}
+
+.category ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.category ul li a:hover{
+    color: rgb(131, 194, 194);
+}
+
+.category ul div{
+    display: flex;
+}
+
+.category ul div img{
+    margin-left: 10px;
+    width: 20px;
+}
+.category ul div li{
+    font-family: bold;
+}
+
+.fresh{
+    font-family: thin;
+    margin-left: 315px;
+}
+
+
+.locationSearchBAr{
+    position: relative;
+    margin: 1.5%;
+    display: none;
+}
+
+.locationSearchBAr input{
+    padding-left: 20px;
+    border: none;
+    width: 96%;
+}
+
+.searchForSmartPhone{
+    display: flex;
+    display: none;
+}
+
+.location{
+    position: absolute;
+    margin-top: 7px;
+}
+
+.errow2{
+    position: absolute;
+    width: 15px;
+}
+
+
+.searchForSmartPhone input{
+    width: 92%;
+    height: 40px;
+    padding-left: 35px;
+    background-color: none;   
+    margin-bottom: 10px;
+    
+}
+
+.searchForSmartPhone i{
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.ballside{
+    position: absolute;
+}
+
+.browse{
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.browse a{
+    color: black;
+}
+
+.mobileCategory{
+    display: none;
+}
+
+.mobileCategoryPart{
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.category1 p{
+    margin-left: 12px;
+    font-size: 15px;
+}
+
+.category2 p{
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.category2 .mobile{
+    background-color: rgb(205, 191, 172);
+}
+.category4 .mobile{
+    background-color: rgb(244, 227, 103);
+}
+
+.category3 p{
+    margin-left: 5px;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+}
+.category4 p{
+    margin-left: 5px;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.mobile{
+    background-color: aqua;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.time{
+    border: 2px solid rgb(175, 174, 174);
+    height: 50px;
+    position: relative;
+    display: none;
+}
+
+.clock{
+    padding: 6px;
+}
+
+.clockSideText{
+    position: absolute;
+    padding-left: 60px;
+    padding-top: 5px;
+    font-family: medium;
+}
+
+.clockSideText2{
+    position: absolute;
+    padding-left: 60px;
+    padding-top: 22px;
+    font-size: 13px;
+    font-family: thin;
+}
+
+.card{
+    margin-bottom: 10px;
+}
+
+.promotion{
+    margin: 20px;
+    text-align: center;
+}
+
+.slide1{
+    width: 65%;
+}
+
+.btn{
+    margin-top: 10px;
+    margin-left:880px;
+}
+
+.btn button{
+    font-family: bold;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 13px;
+    display: flex;
+}
+
+@media only screen and (max-width:700px) {
+    .head1{
+        width: 98%;
+        display: flex;
+        justify-content: center;
+        margin-left: 0% !important;
+    }
+}
+
+
+@media only screen and (max-width:700px) {
+    .logo2, .searchBar2, .login, .sell, .searchBar1, .category, .banner, .fresh{
+        display: none;
+    }
+
+    .locationSearchBAr{
+        display: block;
+    }
+
+    .searchForSmartPhone{
+        display: block;
+    }
+
+    .mobileCategory{
+        display: block;
+    }
+
+    .time{
+        display: block;
+    }
+}
